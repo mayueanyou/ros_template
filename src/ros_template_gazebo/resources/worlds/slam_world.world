@@ -1,0 +1,125 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+
+  <world name="default">
+    <include>
+    <uri>model://slam_0</uri>
+    </include>
+
+    <include>
+    <uri>model://slam_0_background</uri>
+    </include>
+
+    <!--include>
+    <uri>model://slam_center_stage</uri>
+  </include-->
+
+    <include>
+    <uri>model://wall_west</uri>
+    <pose>-1.05 5.5 0 0 0 0</pose>
+    </include>
+
+    <include>
+    <uri>model://wall_east</uri>
+    <pose>12.05 5.5 0 0 0 0</pose>
+    </include>
+
+    <include>
+    <uri>model://wall_north</uri>
+    <pose>5.5 12.05 0 0 0 0</pose>
+    </include>
+
+    <include>
+    <uri>model://wall_south</uri>
+    <pose>5.5 -1.05 0 0 0 0</pose>
+  </include>
+
+    <include>
+      <uri>model://slam_ceiling</uri>
+      <pose>5.5 5.5 2.49 3.1415 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://slam_plane</uri>
+      <pose>5.5 5.5 0 0 0 0</pose>
+    </include>
+
+
+
+    <!-- Global light source -->
+    <light type="directional" name="sun_east">
+      <cast_shadows>false</cast_shadows>
+      <pose>5 5 10 0 0 0</pose>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-1 0 -1</direction>
+    </light>
+
+    <light type="directional" name="sun_west">
+      <cast_shadows>false</cast_shadows>
+      <pose>5 5 10 0 0 0</pose>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>1 0 -1</direction>
+    </light>
+
+    <light type="directional" name="sun_north">
+      <cast_shadows>false</cast_shadows>
+      <pose>5 5 10 0 0 0</pose>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>0 -1 -1</direction>
+    </light>
+
+    <light type="directional" name="sun_south">
+      <cast_shadows>false</cast_shadows>
+      <pose>5 5 10 0 0 0</pose>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>0 1 -1</direction>
+    </light>
+
+    <!--light type="directional" name="sun_bottom">
+      <cast_shadows>false</cast_shadows>
+      <pose>5 5 -10 0 0 0</pose>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>0 0 1</direction>
+    </light-->
+
+    <!-- Focus camera on tall pendulum -->
+    <gui fullscreen='0'>
+      <camera name='user_camera'>
+        <pose>12.68 9.19 24.69 0.000000 1.285 3.13</pose>
+        <view_controller>orbit</view_controller>
+      </camera>
+    </gui>
+
+    <physics type='ode'>
+     <max_step_size>0.0015</max_step_size>
+     <real_time_factor>0</real_time_factor>
+     <real_time_update_rate>2000</real_time_update_rate>
+   </physics>
+
+  </world>
+</sdf>

@@ -1,0 +1,107 @@
+material wall_west
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture wall_west.png
+        filtering trilinear
+        scale 0.5 0.5
+      }
+    }
+  }
+}
+
+material wall_east
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture wall_east.png
+        filtering trilinear
+      }
+    }
+  }
+}
+
+material wall_north
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture wall_north.png
+        filtering trilinear
+      }
+    }
+  }
+}
+
+material wall_south
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture wall_south.png
+        filtering trilinear
+      }
+    }
+  }
+}
+
+material plane
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture plane.png
+        filtering trilinear
+        scale 0.025 0.025
+      }
+    }
+  }
+}
+
+material ceiling
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture ceiling.png
+        filtering trilinear
+        scale 0.5 0.5
+      }
+    }
+  }
+}
+
+material stage
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture stage.png
+        filtering trilinear
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+#!/bin/bash
+
+work_dir=$(cd $(dirname "${BASH_SOURCE[0]}") && pwd)
+work_name="${work_dir##*/}"
+
+#chmod 777 "$work_dir" -R
+#catkin_create_pkg $work_name"_gazebo"
+#mv $work_name"_gazebo" src
+catkin_make
+
+echo "export TURTLEBOT3_MODEL=waffle" >> ./devel/setup.bash
+#echo "source $work_dir/devel/setup.bash" >> ~/.bashrc
+
+
+
+

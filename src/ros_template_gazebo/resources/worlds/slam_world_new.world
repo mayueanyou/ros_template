@@ -1,0 +1,148 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+
+  <world name="default">
+    <include>
+    <uri>model://slam_cafe_table</uri>
+    <pose>1.5 2.5 0 0 0 0</pose>
+    </include>
+
+    <include>
+    <uri>model://slam_side_table_1</uri>
+    <pose>2.5 2.5 0 0 0 0</pose>
+    </include>
+
+    <include>
+    <uri>model://slam_side_table_2</uri>
+    <pose>3.5 2.5 0 0 0 0</pose>
+    </include>
+
+    <include>
+    <uri>model://slam_side_table_3</uri>
+    <pose>4.5 2.5 0 0 0 0</pose>
+    </include>
+
+    <include>
+    <uri>model://slam_side_table_4</uri>
+    <pose>5.5 2.5 0 0 0 0</pose>
+    </include>
+
+    <include>
+    <uri>model://slam_chair_1</uri>
+    <pose>2.5 1.5 0 0 0 0</pose>
+    </include>
+
+    <include>
+    <uri>model://slam_chair_2</uri>
+    <pose>3.5 1.5 0 0 0 0</pose>
+    </include>
+
+    <include>
+    <uri>model://slam_chair_3</uri>
+    <pose>4.5 1.5 0 0 0 0</pose>
+    </include>
+
+    <include>
+    <uri>model://slam_chair_4</uri>
+    <pose>5.5 1.5 0 0 0 0</pose>
+    </include>
+
+    <include>
+    <uri>model://slam_chair_5</uri>
+    <pose>6.5 1.5 0 0 0 0</pose>
+    </include>
+
+    <include>
+    <uri>model://slam_center_stage</uri>
+    </include>
+
+    <include>
+    <uri>model://wall_west</uri>
+    <pose>-5.05 5 0 0 0 0</pose>
+    </include>
+
+    <include>
+    <uri>model://wall_east</uri>
+    <pose>15.05 5 0 0 0 0</pose>
+    </include>
+
+    <include>
+    <uri>model://wall_north</uri>
+    <pose>5 15.05 0 0 0 0</pose>
+    </include>
+
+    <include>
+    <uri>model://wall_south</uri>
+    <pose>5 -5.05 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://slam_plane</uri>
+      <pose>5 5 0 0 0 0</pose>
+    </include>
+
+    <!-- Global light source -->
+    <light type="directional" name="sun_east">
+      <cast_shadows>false</cast_shadows>
+      <pose>5 5 10 0 0 0</pose>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-1 0 -1</direction>
+    </light>
+
+    <light type="directional" name="sun_west">
+      <cast_shadows>false</cast_shadows>
+      <pose>5 5 10 0 0 0</pose>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>1 0 -1</direction>
+    </light>
+
+    <light type="directional" name="sun_north">
+      <cast_shadows>false</cast_shadows>
+      <pose>5 5 10 0 0 0</pose>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>0 -1 -1</direction>
+    </light>
+
+    <light type="directional" name="sun_south">
+      <cast_shadows>false</cast_shadows>
+      <pose>5 5 10 0 0 0</pose>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>0 1 -1</direction>
+    </light>
+
+    <!-- Focus camera on tall pendulum -->
+    <gui fullscreen='0'>
+      <camera name='user_camera'>
+        <pose>6.430755 1.382297 27.940647 0.000000 1.411641 1.500187</pose>
+        <view_controller>orbit</view_controller>
+      </camera>
+    </gui>
+
+    <!--physics type='ode'>
+     <max_step_size>0.002</max_step_size>
+     <real_time_factor>0</real_time_factor>
+     <real_time_update_rate>2500</real_time_update_rate>
+   </physics-->
+
+  </world>
+</sdf>

@@ -1,0 +1,86 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+<model name='slam_5'>
+<static>true</static>
+<include>
+<uri>model://slam_chair_4</uri>
+<pose>5.500000 2.500000 0.000000 0 0 0.000000</pose>
+</include>
+<include>
+<uri>model://slam_chair_2</uri>
+<pose>9.500000 1.500000 0.000000 0 0 4.712389</pose>
+</include>
+<include>
+<uri>model://slam_side_table_1</uri>
+<pose>9.500000 7.500000 0.000000 0 0 3.141593</pose>
+</include>
+<include>
+<uri>model://slam_chair_1</uri>
+<pose>3.500000 10.500000 0.000000 0 0 1.570796</pose>
+</include>
+<include>
+<uri>model://slam_chair_3</uri>
+<pose>9.500000 9.500000 0.000000 0 0 0.000000</pose>
+</include>
+<include>
+<uri>model://slam_side_table_2</uri>
+<pose>3.500000 4.500000 0.000000 0 0 1.570796</pose>
+</include>
+<include>
+<uri>model://slam_side_table_4</uri>
+<pose>4.500000 7.500000 0.000000 0 0 0.000000</pose>
+</include>
+<include>
+<uri>model://slam_chair_5</uri>
+<pose>6.500000 2.500000 0.000000 0 0 3.141593</pose>
+</include>
+<include>
+<uri>model://slam_side_table_3</uri>
+<pose>7.500000 5.500000 0.000000 0 0 3.141593</pose>
+</include>
+<include>
+<uri>model://slam_cafe_table</uri>
+<pose>1.500000 3.500000 0.000000 0 0 0.000000</pose>
+</include>
+<include>
+<uri>model://slam_cafe_table</uri>
+<pose>3.500000 7.500000 0.000000 0 0 4.712389</pose>
+</include>
+<include>
+<uri>model://slam_side_table_4</uri>
+<pose>5.500000 6.500000 0.000000 0 0 0.000000</pose>
+</include>
+<include>
+<uri>model://slam_chair_2</uri>
+<pose>8.500000 2.500000 0.000000 0 0 3.141593</pose>
+</include>
+<include>
+<uri>model://slam_chair_4</uri>
+<pose>6.500000 7.500000 0.000000 0 0 3.141593</pose>
+</include>
+<include>
+<uri>model://slam_side_table_3</uri>
+<pose>7.500000 3.500000 0.000000 0 0 0.000000</pose>
+</include>
+<include>
+<uri>model://slam_chair_1</uri>
+<pose>2.500000 9.500000 0.000000 0 0 0.000000</pose>
+</include>
+<include>
+<uri>model://slam_chair_5</uri>
+<pose>5.500000 3.500000 0.000000 0 0 3.141593</pose>
+</include>
+<include>
+<uri>model://slam_side_table_1</uri>
+<pose>6.500000 6.500000 0.000000 0 0 4.712389</pose>
+</include>
+<include>
+<uri>model://slam_chair_3</uri>
+<pose>8.500000 6.500000 0.000000 0 0 0.000000</pose>
+</include>
+<include>
+<uri>model://slam_side_table_2</uri>
+<pose>5.500000 8.500000 0.000000 0 0 4.712389</pose>
+</include>
+</model>
+</sdf>

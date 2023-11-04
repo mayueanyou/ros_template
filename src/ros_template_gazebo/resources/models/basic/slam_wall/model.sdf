@@ -1,0 +1,42 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+<model name='slam_wall'>
+<static>true</static>
+<include>
+<uri>../models/slam_cube_blue</uri>
+<pose>0 0 0 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_blue</uri>
+<pose>0 0 1 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_blue</uri>
+<pose>0 0 2 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_blue</uri>
+<pose>1 0 0 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_blue</uri>
+<pose>1 0 1 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_blue</uri>
+<pose>1 0 2 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_blue</uri>
+<pose>2 0 0 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_blue</uri>
+<pose>2 0 1 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_blue</uri>
+<pose>2 0 2 0 0 0</pose>
+</include>
+</model>
+</sdf>

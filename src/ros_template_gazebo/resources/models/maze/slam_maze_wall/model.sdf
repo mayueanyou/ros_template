@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<sdf version="1.5">
+  <model name="cube">
+    <static>true</static>
+    <link name="link">
+      <pose>0 0.5 0.5 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>1 0.1 1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <box>
+            <size>1 0.1 1</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>0.25 0.25 0.25 1</diffuse>
+          <script>
+            <uri>../../media/materials/scripts/my.material</uri>
+            <name>wood</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

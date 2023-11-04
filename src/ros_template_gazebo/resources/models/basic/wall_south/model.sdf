@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="wall_south">
+    <static>true</static>
+    <link name="link">
+      <pose>0 0 1.25 0 0 0</pose>
+
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>13 0.1 2.5</size>
+          </box>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <box>
+            <size>13 0.1 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>../../media/materials/scripts/my.material</uri>
+            <name>wall_south</name>
+          </script>
+        </material>
+      </visual>
+
+    </link>
+  </model>
+</sdf>

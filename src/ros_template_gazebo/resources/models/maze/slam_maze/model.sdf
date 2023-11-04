@@ -1,0 +1,478 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+<model name='slam_maze'>
+<static>true</static>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>0.5 1.500000 0 0 0 1.570000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>0.5 2.500000 0 0 0 1.570000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>0.5 3.500000 0 0 0 1.570000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>0.5 4.500000 0 0 0 1.570000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>0.5 5.500000 0 0 0 1.570000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>0.5 6.500000 0 0 0 1.570000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>0.5 7.500000 0 0 0 1.570000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>0.5 8.500000 0 0 0 1.570000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>0.5 9.500000 0 0 0 1.570000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>9.5 0.500000 0 0 0 4.710000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>9.5 1.500000 0 0 0 4.710000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>9.5 2.500000 0 0 0 4.710000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>9.5 3.500000 0 0 0 4.710000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>9.5 4.500000 0 0 0 4.710000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>9.5 5.500000 0 0 0 4.710000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>9.5 6.500000 0 0 0 4.710000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>9.5 7.500000 0 0 0 4.710000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>9.5 8.500000 0 0 0 4.710000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>9.5 9.500000 0 0 0 4.710000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>0.500000 9.5 0 0 0 0.000000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>1.500000 9.5 0 0 0 0.000000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>2.500000 9.5 0 0 0 0.000000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>3.500000 9.5 0 0 0 0.000000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>4.500000 9.5 0 0 0 0.000000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>5.500000 9.5 0 0 0 0.000000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>6.500000 9.5 0 0 0 0.000000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>7.500000 9.5 0 0 0 0.000000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>8.500000 9.5 0 0 0 0.000000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>0.500000 0.5 0 0 0 3.140000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>1.500000 0.5 0 0 0 3.140000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>2.500000 0.5 0 0 0 3.140000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>3.500000 0.5 0 0 0 3.140000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>4.500000 0.5 0 0 0 3.140000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>5.500000 0.5 0 0 0 3.140000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>6.500000 0.5 0 0 0 3.140000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>7.500000 0.5 0 0 0 3.140000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>8.500000 0.5 0 0 0 3.140000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>9.500000 0.5 0 0 0 3.140000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>3.500000 9.500000 0 0 0 0.000000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>1.500000 2.500000 0 0 0 0.000000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>7.500000 2.500000 0 0 0 0.000000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>7.500000 4.500000 0 0 0 4.710000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>5.500000 8.500000 0 0 0 4.710000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>8.500000 5.500000 0 0 0 3.140000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>8.500000 1.500000 0 0 0 3.140000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>4.500000 0.500000 0 0 0 4.710000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>8.500000 3.500000 0 0 0 0.000000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>2.500000 2.500000 0 0 0 0.000000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>4.500000 6.500000 0 0 0 1.570000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>5.500000 7.500000 0 0 0 3.140000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>2.500000 9.500000 0 0 0 4.710000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>5.500000 4.500000 0 0 0 4.710000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>9.500000 1.500000 0 0 0 1.570000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>2.500000 6.500000 0 0 0 3.140000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>2.500000 0.500000 0 0 0 4.710000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>8.500000 8.500000 0 0 0 1.570000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>5.500000 5.500000 0 0 0 0.000000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>4.500000 9.500000 0 0 0 4.710000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>3.500000 4.500000 0 0 0 3.140000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>3.500000 1.500000 0 0 0 0.000000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>1.500000 9.500000 0 0 0 3.140000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>8.500000 7.500000 0 0 0 4.710000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>1.500000 3.500000 0 0 0 3.140000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>0.500000 5.500000 0 0 0 1.570000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>6.500000 7.500000 0 0 0 0.000000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>5.500000 0.500000 0 0 0 4.710000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>7.500000 0.500000 0 0 0 4.710000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>1.500000 7.500000 0 0 0 4.710000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>2.500000 4.500000 0 0 0 0.000000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>4.500000 8.500000 0 0 0 1.570000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>9.500000 7.500000 0 0 0 0.000000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>8.500000 9.500000 0 0 0 0.000000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>9.500000 0.500000 0 0 0 3.140000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>6.500000 2.500000 0 0 0 4.710000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>3.500000 0.500000 0 0 0 0.000000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>6.500000 4.500000 0 0 0 0.000000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>3.500000 3.500000 0 0 0 0.000000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>2.500000 3.500000 0 0 0 0.000000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>9.500000 3.500000 0 0 0 0.000000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>9.500000 8.500000 0 0 0 1.570000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>0.500000 3.500000 0 0 0 1.570000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>1.500000 0.500000 0 0 0 3.140000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>0.500000 4.500000 0 0 0 0.000000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>1.500000 5.500000 0 0 0 3.140000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>4.500000 2.500000 0 0 0 0.000000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>9.500000 4.500000 0 0 0 1.570000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>6.500000 0.500000 0 0 0 4.710000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>4.500000 1.500000 0 0 0 1.570000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>9.500000 5.500000 0 0 0 4.710000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>3.500000 2.500000 0 0 0 4.710000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>5.500000 3.500000 0 0 0 0.000000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>6.500000 6.500000 0 0 0 0.000000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>1.500000 1.500000 0 0 0 4.710000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>4.500000 4.500000 0 0 0 0.000000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>7.500000 9.500000 0 0 0 3.140000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>5.500000 1.500000 0 0 0 0.000000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>6.500000 9.500000 0 0 0 3.140000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>0.500000 8.500000 0 0 0 3.140000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>8.500000 6.500000 0 0 0 0.000000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>9.500000 2.500000 0 0 0 4.710000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>3.500000 6.500000 0 0 0 1.570000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>0.500000 7.500000 0 0 0 3.140000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>3.500000 5.500000 0 0 0 4.710000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>0.500000 1.500000 0 0 0 4.710000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>1.500000 6.500000 0 0 0 1.570000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>7.500000 6.500000 0 0 0 4.710000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>8.500000 4.500000 0 0 0 4.710000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>6.500000 3.500000 0 0 0 0.000000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>6.500000 8.500000 0 0 0 1.570000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>8.500000 0.500000 0 0 0 3.140000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>7.500000 5.500000 0 0 0 4.710000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>7.500000 1.500000 0 0 0 0.000000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>2.500000 5.500000 0 0 0 1.570000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>2.500000 8.500000 0 0 0 3.140000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>5.500000 6.500000 0 0 0 4.710000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>2.500000 1.500000 0 0 0 3.140000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>4.500000 5.500000 0 0 0 1.570000</pose>
+</include>
+<include>
+<uri>../models/maze/slam_maze_wall</uri>
+<pose>4.500000 3.500000 0 0 0 1.570000</pose>
+</include>
+</model>
+</sdf>

@@ -1,0 +1,158 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+<model name='slam_world'>
+<static>true</static>
+<include>
+<uri>../models/slam_cube_green</uri>
+<pose>0 7 0 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_green</uri>
+<pose>0 7 1 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_green</uri>
+<pose>1 5 0 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_green</uri>
+<pose>1 5 1 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_green</uri>
+<pose>1 7 1 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_green</uri>
+<pose>2 5 1 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_green</uri>
+<pose>2 7 0 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_green</uri>
+<pose>2 7 1 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_red</uri>
+<pose>3 4 0 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_red</uri>
+<pose>3 4 1 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_red</uri>
+<pose>3 4 2 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_red</uri>
+<pose>3 4 3 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_red</uri>
+<pose>3 4 4 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_red</uri>
+<pose>3 4 5 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_red</uri>
+<pose>3 4 6 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_red</uri>
+<pose>3 4 7 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_red</uri>
+<pose>3 4 8 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_red</uri>
+<pose>3 4 9 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_green</uri>
+<pose>3 5 0 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_green</uri>
+<pose>3 5 1 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_blue</uri>
+<pose>4 2 0 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_blue</uri>
+<pose>4 2 1 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_blue</uri>
+<pose>4 2 2 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_blue</uri>
+<pose>5 2 0 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_blue</uri>
+<pose>5 2 1 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_blue</uri>
+<pose>5 2 2 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_blue</uri>
+<pose>6 2 0 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_blue</uri>
+<pose>6 2 1 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_blue</uri>
+<pose>6 2 2 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_blue</uri>
+<pose>8 4 0 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_blue</uri>
+<pose>8 4 1 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_blue</uri>
+<pose>8 4 2 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_blue</uri>
+<pose>8 5 0 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_blue</uri>
+<pose>8 5 1 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_blue</uri>
+<pose>8 5 2 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_blue</uri>
+<pose>8 6 0 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_blue</uri>
+<pose>8 6 1 0 0 0</pose>
+</include>
+<include>
+<uri>../models/slam_cube_blue</uri>
+<pose>8 6 2 0 0 0</pose>
+</include>
+</model>
+</sdf>

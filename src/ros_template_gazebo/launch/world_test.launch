@@ -1,0 +1,39 @@
+<launch>
+  <arg name="model" default="$(env TURTLEBOT3_MODEL)" doc="model type [burger, waffle, waffle_pi]"/>
+  <arg name="x_pos" default="0"/>
+  <arg name="y_pos" default="0"/>
+  <arg name="z_pos" default="0.0"/>
+  <arg name="yaw_pos" default="0"/>
+
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(find slam_dataset_gazebo)/resources/worlds/slam_world_test.world"/>
+    <arg name="paused" value="false"/>
+    <arg name="use_sim_time" value="true"/>
+    <arg name="gui" value="true"/>
+    <arg name="headless" value="false"/>
+    <arg name="debug" value="false"/>
+  </include>
+
+  <param name="robot_description" command="$(find xacro)/xacro --inorder $(find slam_dataset_gazebo)/launch/turtlebot3/slam_$(arg model).urdf.xacro" />
+
+  <node pkg="gazebo_ros" type="spawn_model" name="spawn_urdf"
+    args="-urdf -model turtlebot3_$(arg model) -x $(arg x_pos) -y $(arg y_pos) -z $(arg z_pos) -Y $(arg yaw_pos) -param robot_description" />
+
+  <include file="$(find slam_dataset_gazebo)/launch/turtlebot3/turtlebot3_gazebo_rviz.launch"></include>
+
+  <!--include file="$(find slam_dataset_gazebo)/launch/turtlebot3/turtlebot3_slam.launch"></include-->
+
+  <node pkg="robot_pose_ekf" type="robot_pose_ekf" name="robot_pose_ekf">
+    <remap from="/imu_data" to="/imu"/>
+
+    <param name="base_footprint_frame" value="base_footprint"/>
+    <param name="output_frame" value="odom_combined"/>
+    <param name="freq" value="1.0"/>
+    <param name="sensor_timeout" value="2.0"/>
+    <param name="odom_used" value="true"/>
+    <param name="imu_used" value="true"/>
+    <param name="vo_used" value="false"/>
+    <param name="debug" value="false"/>
+    <param name="self_diagnose" value="false"/>
+  </node>
+</launch>

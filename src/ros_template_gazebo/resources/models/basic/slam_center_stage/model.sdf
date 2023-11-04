@@ -1,0 +1,74 @@
+<?xml version='1.0'?>
+<sdf version="1.5">
+  <model name="stage">
+    <static>true</static>
+    <link name="link">
+      <pose>5 0 0 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>10 0.01 10</size>
+          </box>
+        </geometry>
+      </collision>
+      <!--visual name="visual">
+        <geometry>
+          <box>
+            <size>10 0.01 10</size>
+          </box>
+        </geometry>
+      </visual-->
+    </link>
+    <link name="link2">
+      <pose>5 10 0 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>10 0.01 10</size>
+          </box>
+        </geometry>
+      </collision>
+      <!--visual name="visual">
+        <geometry>
+          <box>
+            <size>10 0.01 10</size>
+          </box>
+        </geometry>
+      </visual-->
+    </link>
+    <link name="lin3">
+      <pose>0 5 0 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>0.01 10 10</size>
+          </box>
+        </geometry>
+      </collision>
+      <!--visual name="visual">
+        <geometry>
+          <box>
+            <size>0.01 10 10</size>
+          </box>
+        </geometry>
+      </visual-->
+    </link>
+    <link name="lin4">
+      <pose>10 5 0 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>0.01 10 10</size>
+          </box>
+        </geometry>
+      </collision>
+      <!--visual name="visual">
+        <geometry>
+          <box>
+            <size>0.01 10 10</size>
+          </box>
+        </geometry>
+      </visual-->
+    </link>
+  </model>
+</sdf>

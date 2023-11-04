@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<sdf version="1.5">
+
+  <model name="ceiling">
+    <static>true</static>
+    <link name="link">
+      <pose>0 0 0 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>13 13 0.01</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+            <size>13 13</size>
+          </plane>
+        </geometry>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <script>
+            <uri>../../media/materials/scripts/my.material</uri>
+            <name>ceiling</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+
+    <link name="link2">
+      <visual name="visual2">
+        <pose>0 0 0.01 0 0 0</pose>
+        <transparency>0.7</transparency>
+        <geometry>
+          <box>
+            <size>13 13 0.01</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>0.25 0.25 0.25 1</diffuse>
+          <script>
+            <uri>../../media/materials/scripts/my.material</uri>
+            <name>ceiling</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+
+  </model>
+</sdf>

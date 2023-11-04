@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="plane">
+    <static>true</static>
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+            <size>20 20</size>
+          </plane>
+        </geometry>
+        <surface>
+          <contact>
+             <collide_bitmask>0xffff</collide_bitmask>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>50</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+            <size>13 13</size>
+          </plane>
+        </geometry>
+        <material>
+          <diffuse>0.25 0.25 0.25 1</diffuse>
+          <script>
+            <uri>../../media/materials/scripts/my.material</uri>
+            <name>plane</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
